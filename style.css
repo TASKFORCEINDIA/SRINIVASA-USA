@@ -37,7 +37,7 @@ header a {
 
 .hero img {
   width: 100%;
-  max-height: 420px;
+  max-height: 360px;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 20px;
