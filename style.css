@@ -45,11 +45,13 @@ header a {
 }
 
 .category {
-  border: 1px solid #eee;
-  border-radius: 6px;
-  padding: 16px;
-  margin-bottom: 16px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 22px;
+  margin-bottom: 18px;
+  background: #fafafa;
 }
+
 
 .trust {
   padding: 20px;
