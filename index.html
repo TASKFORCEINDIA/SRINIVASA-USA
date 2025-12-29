@@ -1,14 +1,169 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SRINIVASA USA</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #ffffff;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 16px 20px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+
+    header a {
+      text-decoration: none;
+      font-size: 14px;
+      color: #111;
+    }
+
+    .hero {
+      padding: 24px 20px;
+      text-align: center;
+    }
+
+    .hero img {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .hero h2 {
+      font-size: 18px;
+      font-weight: normal;
+      margin-top: 16px;
+    }
+
+    .section {
+      padding: 32px 20px;
+    }
+
+    .section h3 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .categories {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .category {
+      border: 1px solid #eee;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .category img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+    }
+
+    .category p {
+      margin: 0;
+      padding: 14px;
+      font-size: 15px;
+    }
+
+    .trust {
+      padding: 24px 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer {
+      padding: 24px 20px;
+      border-top: 1px solid #eee;
+      font-size: 13px;
+      color: #444;
+    }
+
+    @media (min-width: 768px) {
+      .categories {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-  <h1>SRINIVASA USA</h1>
+  <!-- HEADER -->
+  <header>
+    <h1>SRINIVASA USA</h1>
+    <a href="https://wa.me/XXXXXXXXXX" target="_blank">WhatsApp</a>
+  </header>
 
-  <p>Indian wear for meaningful moments abroad</p>
+  <!-- HERO -->
+  <section class="hero">
+    <img src="images/hero.jpg" alt="SRINIVASA USA">
+    <h2>Indian wear for meaningful moments abroad</h2>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section">
+    <h3>Collections</h3>
+
+    <div class="categories">
+
+      <div class="category">
+        <img src="images/sarees.jpg" alt="Sarees Wedding Festive">
+        <p><strong>Sarees – Wedding & Festive</strong></p>
+      </div>
+
+      <div class="category">
+        <img src="images/elegant.jpg" alt="Elegant Indian Wear">
+        <p><strong>Elegant Indian Wear</strong></p>
+      </div>
+
+      <div class="category">
+        <img src="images/indo.jpg" alt="Indo Western">
+        <p><strong>Indo-Western (Curated)</strong></p>
+      </div>
+
+      <div class="category">
+        <img src="images/daily.jpg" alt="Daily Comfort Wear">
+        <p><strong>Daily Comfort Wear</strong></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <div class="trust">
+    Over 50 years of heritage from Hyderabad, Telangana
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      Prices are fixed and final, thoughtfully curated from India with over
+      50 years of legacy. Orders are dispatched the same day upon payment
+      confirmation using FedEx, UPS, or the fastest available air service.
+      Exchange only. Shipping charges are non-refundable.
+    </p>
+  </footer>
 
 </body>
 </html>
-
