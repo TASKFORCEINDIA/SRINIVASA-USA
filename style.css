@@ -1,3 +1,9 @@
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -5,7 +11,7 @@ body {
   color: #111;
 }
 
-/* HEADER */
+/* ===== HEADER ===== */
 header {
   padding: 16px 20px;
   border-bottom: 1px solid #eee;
@@ -16,10 +22,10 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 16px;        /* keep size */
+  font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 900;       /* bold & confident */
-  color: #000000;
+  font-weight: 900;
+  color: #000;
 }
 
 header a {
@@ -29,7 +35,7 @@ header a {
   font-weight: 500;
 }
 
-/* HERO */
+/* ===== HERO ===== */
 .hero {
   padding: 38px 20px 30px;
   text-align: center;
@@ -47,137 +53,85 @@ header a {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
+  margin: 0;
 }
 
-/* SECTIONS */
+/* ===== SECTIONS ===== */
 .section {
-  padding: 10px 20px 30px;
+  padding: 20px 16px;
+  margin: 0;
 }
 
 .section h3 {
   font-size: 16px;
   letter-spacing: 1.5px;
-  margin-bottom: 14px;
+  margin: 0 0 14px 0;
 }
 
-/* CATEGORIES */
+/* ===== CATEGORIES / COLLECTIONS ===== */
 .category {
+  margin: 10px 0;
+  padding: 14px 16px;
   border: 1px solid #eaeaea;
-  border-radius: 8px;
-  padding: 22px;
-  margin-bottom: 18px;
+  border-radius: 10px;
   background: #fafafa;
 }
 
-/* TRUST */
-.trust {
-  padding: 20px;
-  text-align: center;
-  font-size: 14px;
-  color: #555;
-}
-
-/* FOOTER */
-footer {
-  padding: 20px;
-  border-top: 1px solid #eee;
-  font-size: 13px;
-  color: #444;
-}
-.services-list li {
-  margin: 6px 0;
-  font-size: 15px;
-  color: #333;
-}
+/* ===== SERVICES CARD ===== */
 .services-card {
-  margin: 40px 20px;
-  padding: 24px;
-  border-radius: 14px;
-  background: #f8f8f8;
-  text-align: center;
+  margin: 16px 0;
+  padding: 16px;
+  border-left: 3px solid #c7a24a; /* soft gold */
+  background: #fafafa;
+  border-radius: 10px;
 }
 
 .services-card h3 {
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: 600;
 }
 
-.services-card p {
-  font-size: 14.5px;
-  color: #555;
-  line-height: 1.6;
-}
-
-.section.collections {
-  margin-bottom: 24px;
-}
-
-.category {
-  margin-bottom: 12px;
-  padding: 14px 16px;
-}
-
-.services-card {
-  margin: 20px 0 28px;
-  padding: 14px 16px;
-  border-left: 3px solid #c7a24a; /* soft gold */
-  background: #fafafa;
-}
-
 .services-card h4 {
-  margin: 0 0 6px;
+  margin: 0 0 6px 0;
   font-size: 15px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
 .services-card p {
-  margin: 0;
+  margin: 6px 0;
   font-size: 14px;
   line-height: 1.5;
   color: #444;
 }
 
-/* GENERAL SECTION SPACING FIX */
-.section {
-  padding: 20px 16px;
-  margin: 0;
+/* ===== SERVICES LIST ===== */
+.services-list {
+  padding-left: 16px;
+  margin: 8px 0 0;
 }
 
-/* COLLECTION CARDS – tighter */
-.category {
-  margin: 10px 0;
-  padding: 14px 16px;
-}
-
-/* REMOVE EXTRA SPACE ABOVE PERSONAL SERVICES */
-.services-card {
-  margin-top: 16px;
-  padding: 16px;
-}
-
-/* HEADINGS – remove default browser gap */
-h3 {
-  margin: 0 0 10px 0;
-}
-
-/* PARAGRAPHS – controlled spacing */
-p {
+.services-list li {
   margin: 6px 0;
-  line-height: 1.6;
+  font-size: 15px;
+  color: #333;
 }
 
-/* TRUST LINE – subtle */
+/* ===== TRUST LINE ===== */
 .trust {
-  margin: 20px 0 10px 0;
+  margin: 20px 0 10px;
+  padding: 10px 0;
+  text-align: center;
   font-size: 14px;
   color: #777;
 }
 
-/* HOW TO ORDER – compact */
-.section.trust {
-  padding-top: 10px;
+/* ===== FOOTER ===== */
+footer {
+  padding: 20px;
+  border-top: 1px solid #eee;
+  font-size: 13px;
+  color: #444;
+  text-align: center;
 }
-
-
