@@ -84,3 +84,9 @@ footer {
   font-size: 13px;
   color: #444;
 }
+.services-list li {
+  margin: 6px 0;
+  font-size: 15px;
+  color: #333;
+}
+
