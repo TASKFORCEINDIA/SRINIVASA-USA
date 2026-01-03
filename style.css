@@ -118,4 +118,25 @@ footer {
   padding: 14px 16px;
 }
 
+.services-card {
+  margin: 20px 0 28px;
+  padding: 14px 16px;
+  border-left: 3px solid #c7a24a; /* soft gold */
+  background: #fafafa;
+}
+
+.services-card h4 {
+  margin: 0 0 6px;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.services-card p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #444;
+}
+
 
