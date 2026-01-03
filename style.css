@@ -78,13 +78,16 @@ header a {
 }
 
 /* ===== SERVICES CARD ===== */
+
 .services-card {
-  margin: 16px 0;
-  padding: 16px;
+  margin: 16px auto;              /* centers the card */
+  padding: 16px 18px;
+  max-width: 680px;               /* same visual width as collections */
   border-left: 3px solid #c7a24a; /* soft gold */
   background: #fafafa;
-  border-radius: 10px;
+  border-radius: 12px;
 }
+
 
 .services-card h3 {
   margin: 0 0 10px 0;
