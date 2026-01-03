@@ -68,24 +68,27 @@ header h1 {
 
 /* PERSONAL SERVICES CARD */
 .services-card {
-  margin: 12px auto;
-  padding: 16px 18px;
+  margin: 16px auto;
+  padding: 18px 20px;
   max-width: 680px;
   background: #fafafa;
   border-radius: 12px;
+  text-align: center;          /* 👈 THIS fixes visual centering */
   position: relative;
 }
 
 .services-card::before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 10px;
-  bottom: 10px;
-  width: 3px;
+  left: 6px;                   /* 👈 pulls it inward */
+  top: 14px;
+  bottom: 14px;
+  width: 2px;                  /* thinner = less left pull */
   background: #c7a24a;
-  border-radius: 3px;
+  border-radius: 2px;
 }
+
+
 
 .services-card p {
   margin: 6px 0 0;
