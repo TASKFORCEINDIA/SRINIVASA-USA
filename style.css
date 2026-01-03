@@ -139,4 +139,45 @@ footer {
   color: #444;
 }
 
+/* GENERAL SECTION SPACING FIX */
+.section {
+  padding: 20px 16px;
+  margin: 0;
+}
+
+/* COLLECTION CARDS – tighter */
+.category {
+  margin: 10px 0;
+  padding: 14px 16px;
+}
+
+/* REMOVE EXTRA SPACE ABOVE PERSONAL SERVICES */
+.services-card {
+  margin-top: 16px;
+  padding: 16px;
+}
+
+/* HEADINGS – remove default browser gap */
+h3 {
+  margin: 0 0 10px 0;
+}
+
+/* PARAGRAPHS – controlled spacing */
+p {
+  margin: 6px 0;
+  line-height: 1.6;
+}
+
+/* TRUST LINE – subtle */
+.trust {
+  margin: 20px 0 10px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+/* HOW TO ORDER – compact */
+.section.trust {
+  padding-top: 10px;
+}
+
 
