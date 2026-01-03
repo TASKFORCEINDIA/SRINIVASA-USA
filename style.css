@@ -109,4 +109,13 @@ footer {
   line-height: 1.6;
 }
 
+.section.collections {
+  margin-bottom: 24px;
+}
+
+.category {
+  margin-bottom: 12px;
+  padding: 14px 16px;
+}
+
 
