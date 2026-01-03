@@ -40,10 +40,12 @@ header h1 {
 
 .hero h2 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;        /* baby-bold */
   letter-spacing: 1px;
   margin: 0;
+  color: #111;
 }
+
 
 /* SECTIONS */
 .section {
