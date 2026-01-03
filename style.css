@@ -58,14 +58,14 @@ header a {
 
 /* ===== SECTIONS ===== */
 .section {
-  padding: 20px 16px;
+  padding: 18px 16px;
   margin: 0;
 }
 
 .section h3 {
-  font-size: 16px;
-  letter-spacing: 1.5px;
-  margin: 0 0 14px 0;
+  font-size: 15px;
+  letter-spacing: 1.6px;
+  margin: 0 0 12px 0;
 }
 
 /* ===== CATEGORIES / COLLECTIONS ===== */
@@ -73,7 +73,7 @@ header a {
   margin: 10px 0;
   padding: 14px 16px;
   border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border-radius: 12px;
   background: #fafafa;
 }
 
@@ -81,7 +81,7 @@ header a {
 
 .services-card {
   margin: 16px auto;              /* centers the card */
-  padding: 16px 18px;
+  padding: 18px 18px;
   max-width: 680px;               /* same visual width as collections */
   border-left: 3px solid #c7a24a; /* soft gold */
   background: #fafafa;
@@ -137,4 +137,14 @@ footer {
   font-size: 13px;
   color: #444;
   text-align: center;
+}
+
+.section.trust {
+  padding-top: 8px;
+}
+
+.trust p,
+.trust li {
+  line-height: 1.7;
+  margin: 10px 0;
 }
