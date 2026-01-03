@@ -187,4 +187,19 @@ footer {
 .trust li {
   margin: 4px 0;
 }
+.order-steps {
+  font-size: 13px;
+  line-height: 1.45;
+  color: #666;
+  text-align: center;
+  margin: 6px 0 8px;
+}
+
+.order-cta {
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 6px;
+  text-decoration: underline;
+}
+
 
