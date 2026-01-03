@@ -1,9 +1,9 @@
-/* ===== RESET ===== */
+/* RESET */
 * {
   box-sizing: border-box;
 }
 
-/* ===== BODY ===== */
+/* BODY */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -11,13 +11,10 @@ body {
   color: #111;
 }
 
-/* ===== HEADER ===== */
+/* HEADER */
 header {
   padding: 16px 20px;
   border-bottom: 1px solid #eee;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 header h1 {
@@ -25,17 +22,9 @@ header h1 {
   font-size: 16px;
   letter-spacing: 2px;
   font-weight: 900;
-  color: #000;
 }
 
-header a {
-  text-decoration: none;
-  font-size: 14px;
-  color: #444;
-  font-weight: 500;
-}
-
-/* ===== HERO ===== */
+/* HERO */
 .hero {
   padding: 38px 20px 30px;
   text-align: center;
@@ -56,31 +45,29 @@ header a {
   margin: 0;
 }
 
-/* ===== SECTIONS ===== */
+/* SECTIONS */
 .section {
   padding: 18px 16px;
-  margin: 0;
 }
 
 .section h3 {
   font-size: 15px;
   letter-spacing: 1.6px;
-  margin: 0 0 12px 0;
+  margin: 0 0 12px;
 }
 
-/* ===== CATEGORIES / COLLECTIONS ===== */
+/* COLLECTIONS */
 .category {
-  margin: 10px 0;
+  margin: 10px auto;
   padding: 14px 16px;
+  max-width: 680px;
   border: 1px solid #eaeaea;
   border-radius: 12px;
   background: #fafafa;
 }
 
-/* ===== SERVICES CARD ===== */
-
-    
-  .services-card {
+/* PERSONAL SERVICES CARD */
+.services-card {
   margin: 12px auto;
   padding: 16px 18px;
   max-width: 680px;
@@ -88,6 +75,7 @@ header a {
   border-radius: 12px;
   position: relative;
 }
+
 .services-card::before {
   content: "";
   position: absolute;
@@ -99,94 +87,22 @@ header a {
   border-radius: 3px;
 }
 
-
-
-      
-
-
-.services-card h3 {
-  margin: 0 0 10px 0;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.services-card h4 {
-  margin: 0 0 6px 0;
-  font-size: 15px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
 .services-card p {
-  margin: 6px 0;
+  margin: 6px 0 0;
   font-size: 14px;
   line-height: 1.5;
   color: #444;
 }
 
-/* ===== SERVICES LIST ===== */
-.services-list {
-  padding-left: 16px;
-  margin: 8px 0 0;
-}
-
-.services-list li {
-  margin: 6px 0;
-  font-size: 15px;
-  color: #333;
-}
-
-/* ===== TRUST LINE ===== */
+/* TRUST LINE */
 .trust {
-  margin: 20px 0 10px;
-  padding: 10px 0;
   text-align: center;
   font-size: 14px;
   color: #777;
+  margin: 18px 0 6px;
 }
 
-/* ===== FOOTER ===== */
-footer {
-  padding: 20px;
-  border-top: 1px solid #eee;
-  font-size: 13px;
-  color: #444;
-  text-align: center;
-}
-
-.section.trust {
-  padding-top: 8px;
-}
-
-.trust p,
-.trust li {
-  line-height: 1.7;
-  margin: 10px 0;
-}
-.section + .section {
-  border-top: 1px solid #f0f0f0;
-}
-
-.section.trust {
-  padding: 12px 16px 8px;
-}
-
-.section.trust h3 {
-  font-size: 14px;
-  letter-spacing: 2px;
-  margin-bottom: 6px;
-}
-
-.trust {
-  font-size: 13px;
-  line-height: 1.45;
-  margin: 0;
-}
-
-.trust p,
-.trust li {
-  margin: 4px 0;
-}
+/* HOW TO ORDER */
 .order-steps {
   font-size: 13px;
   line-height: 1.45;
@@ -202,4 +118,11 @@ footer {
   text-decoration: underline;
 }
 
-
+/* FOOTER */
+footer {
+  padding: 20px;
+  border-top: 1px solid #eee;
+  font-size: 13px;
+  color: #444;
+  text-align: center;
+}
