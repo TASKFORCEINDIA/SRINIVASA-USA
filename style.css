@@ -79,26 +79,28 @@ header a {
 
 /* ===== SERVICES CARD ===== */
 
-    .services-card {
-  margin: 16px auto;
-  padding: 18px 20px 18px 22px; /* extra right padding balances gold line */
+    
+  .services-card {
+  margin: 12px auto;
+  padding: 16px 18px;
   max-width: 680px;
   background: #fafafa;
   border-radius: 12px;
   position: relative;
 }
-
-/* gold accent as pseudo-element (better alignment) */
 .services-card::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 12px;
-  bottom: 12px;
+  top: 10px;
+  bottom: 10px;
   width: 3px;
   background: #c7a24a;
   border-radius: 3px;
 }
+
+
+
       
 
 
